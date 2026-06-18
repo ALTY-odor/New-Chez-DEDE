@@ -1,0 +1,43 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #1C0F0A;
+    color: #FDF6F0;
+    text-align: center;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #D4622A;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #D4622A;
+}
+p {
+    font-size: 18px;
+}
+a {
+    color: #D4622A;
+    font-weight: bold;
+}
+img {
+    width: 100%;
+    max-width: 700px;
+    height: 450px;
+}
+.dark-sections {
+    background-color: #2B1810;
+    color: #FDF6F0;
+    padding: 40px;
+}
+.dark-sections h2 {
+    color: #D4622A;
+}
+.dark-sections a {
+    color: #FDF6F0;
+}
+.food-gallery {
+    display: flex;
+    justify-content: center;
+}   
