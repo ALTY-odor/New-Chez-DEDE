@@ -40,9 +40,10 @@ img {
 .food-gallery {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }   
 .food-gallery img {
     margin: 10px;
-    width: 215px;
+    width: 200px;
     height: auto;
 }
