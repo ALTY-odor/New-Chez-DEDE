@@ -24,7 +24,7 @@ a {
 img {
     width: 100%;
     max-width: 700px;
-    height: 450px;
+    height: auto;
 }
 .dark-sections {
     background-color: #2B1810;
