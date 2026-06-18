@@ -46,4 +46,6 @@ img {
     margin: 10px;
     width: 200px;
     height: auto;
+    border: 2px solid #D4622A;
+    border-radius: 10px;
 }
