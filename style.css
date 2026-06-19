@@ -1,51 +1,65 @@
+/* Targets the entire page */
 body {
-    font-family: 'Georgia', serif;
+    font-family: 'Georgia', serif; /* A serif font (with small decorative strokes) — feels more elegant than Arial */
     background-color: #1C0F0A;
     color: #FDF6F0;
     text-align: center;
 }
+
 h1 {
     font-size: 48px;
     font-weight: bold;
     color: #D4622A;
 }
+
 h2 {
     font-size: 32px;
     font-weight: bold;
     color: #D4622A;
 }
+
 p {
     font-size: 18px;
 }
+
 a {
     color: #D4622A;
     font-weight: bold;
 }
+
+/* Targets every image by default */
 img {
-    width: 100%;
-    max-width: 700px;
-    height: auto;
+    width: 100%; /* Image stretches to fill its container's full width */
+    max-width: 700px; /* ...but never grows wider than 700px, even on huge screens */
+    height: auto; /* Height adjusts automatically so the image doesn't stretch out of shape */
 }
+
 .dark-sections {
     background-color: #2B1810;
     color: #FDF6F0;
-    padding: 40px;
+    padding: 40px; /* Adds space inside the box, between its edges and its content */
 }
+
 .dark-sections h2 {
     color: #D4622A;
 }
+
 .dark-sections a {
     color: #FDF6F0;
 }
+
+/* Targets the food-gallery div — turns it into a flexible, wrapping row of photos */
 .food-gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: flex; /* Lines up the 5 images side by side instead of stacking them */
+    justify-content: center; /* Centers the row of images horizontally */
+    flex-wrap: wrap; /* If there's no room, extra images drop down to a new line instead of overflowing */
 }   
+
+/* Targets only images that are inside .food-gallery — overrides the general img rule above for these specific photos */
 .food-gallery img {
-    margin: 10px;
-    width: 200px;
+    margin: 10px; /* Adds space around the outside of each photo, separating them from each other */
+    width: 200px; /* Forces a fixed, smaller size for gallery thumbnails (overrides width: 100% from the general img rule) */
     height: auto;
-    border: 3px solid #D4622A;
-    border-radius: 10px;
+    border: 3px solid #D4622A; /* A solid colored frame around each photo */
+    border-radius: 10px; /* Slightly rounds the corners instead of a sharp square */
 }
