@@ -57,9 +57,10 @@ img {
 
 /* Targets only images that are inside .food-gallery — overrides the general img rule above for these specific photos */
 .food-gallery img {
-    margin: 10px; /* Adds space around the outside of each photo, separating them from each other */
-    width: 200px; /* Forces a fixed, smaller size for gallery thumbnails (overrides width: 100% from the general img rule) */
-    height: auto;
-    border: 3px solid #D4622A; /* A solid colored frame around each photo */
-    border-radius: 10px; /* Slightly rounds the corners instead of a sharp square */
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 3px solid #D4622A;
 }
