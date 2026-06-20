@@ -61,6 +61,6 @@ img {
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin: 0 10px 30px 10px;
     border: 3px solid #D4622A;
 }
